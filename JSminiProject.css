@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+#for-logo {
+    width: 70px;
+    border-radius: 10px;
+    padding-right: 7px;
+    border: none;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    height: 300px;
+    width: 50px;
+}
+
+.neon-text {
+    font-size: 48px;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgb(255, 38, 0),
+        0 0 10px #0ff,
+        0 0 5px rgb(255, 38, 0),
+        0 0 40px #0ff,
+        0 0 5px rgb(255, 38, 0);
+    background-color: #0e56ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgba(238, 230, 236, 0.7), rgba(255, 0, 0, 0.99));
+  }
+  
+  .container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  nav, section, article, aside {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 21px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0,0 ,0 0.1);
+    margin: 10px;
+  }
+  
+  nav h2 {
+    font-size: large;
+  }
+  
+  div, nav h2 p {
+    font-size: small;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+  }
+  
+  nav, .main-content, aside {
+    flex: 1;
+  }
+  
+  button {
+    border-radius: 5px;
+    background: linear-gradient(to right, rgb(14, 32, 197), rgba(100, 197, 235, 0.99));
+    cursor: grab;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 1.0s ease;
+  }
+  
+  button:hover {
+    background-color: coral;
+  }
+  
+  .main-content, aside {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.9));
+  }
+  
+  section, article, aside{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(1, 19, 22, 0.5);
+  }
+  
+  footer {
+    background: linear-gradient(to right, rgb(14, 32, 197), rgba(100, 197, 235, 0.99));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  #for-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(41, 122, 228);
+    cursor: grab;
+  }
+  
+  form {
+    background: linear-gradient(to right, rgb(120, 245, 203), rgba(100, 197, 235, 0.99));
+    border-radius: 5px;
+    border: 2.1px solid #cccccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  }
